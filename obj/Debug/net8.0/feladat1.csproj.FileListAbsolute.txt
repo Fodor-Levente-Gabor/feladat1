@@ -12,3 +12,4 @@
 /home/fodor/Documents/programming/feladat1/obj/Debug/net8.0/feladat1.pdb
 /home/fodor/Documents/programming/feladat1/obj/Debug/net8.0/feladat1.genruntimeconfig.cache
 /home/fodor/Documents/programming/feladat1/obj/Debug/net8.0/ref/feladat1.dll
+/home/fodor/Documents/programming/feladat1/obj/Debug/net8.0/feladat1.sourcelink.json

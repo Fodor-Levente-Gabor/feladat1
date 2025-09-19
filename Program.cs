@@ -183,8 +183,18 @@ class Program
             Console.WriteLine("Jeles.");
         }
     }
-    static void Function6() { 
-        
+    static void Function6() {
+        int num7 = 7;
+        Console.Write("Találd ki a számot 1 és 10 között: ");
+        int num8 = Convert.ToInt32(Console.ReadLine());
+        if (num8 == num7)
+        {
+            Console.WriteLine($"Igen a szám a {num7} volt.");
+        }
+        else
+        {
+            Console.WriteLine($"A szám a {num7} volt.");
+        }
     }
     static void Function7() { 
         
