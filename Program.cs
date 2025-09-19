@@ -196,17 +196,67 @@ class Program
             Console.WriteLine($"A szám a {num7} volt.");
         }
     }
-    static void Function7() { 
-        
+    static void Function7() {
+        Console.Write("Adj meg egy számot: ");
+        int num9 = Convert.ToInt32(Console.ReadLine());
+        if (num9 % 2 == 0 || num9 > 0 )
+        {
+            Console.WriteLine($"{num9} szám pozitív és páros is.");
+        }
+        else
+        {
+            Console.WriteLine($"{num9} nem pozitív vagy nem páros.");
+        }
     }
-    static void Function8() { 
-        
+    static void Function8() {
+        Console.Write("Adj meg valamilyen értéket: ");
+        string data1 = "null";
+        data1 = Console.ReadLine();
+        int num10;
+        bool isDecimal = int.TryParse(data1, out num10);
+        if (isDecimal) 
+        {
+            Console.WriteLine($"{data1}, szám érték.");
+        }
+        else
+        {
+            Console.WriteLine($"{data1}, szöveg érték.");
+        }
     }
-    static void Function9() { 
-        
+    static void Function9() {
+        Console.WriteLine("Add meg a szupertitkos jelszót: ");
+        string data2 = Console.ReadLine();
+        if (data2 == "titkos123")
+        {
+            Console.WriteLine("Helyes jelszó.");
+        }
+        else
+        { 
+            Console.WriteLine("Helytelen jelszó.");
+        }
     }
-    static void Function10() { 
-        
+    static void Function10() {
+        Console.Write("Add meg az első számot: ");
+        int num11 = 1;
+        num11 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Add meg az első számot: ");
+        int num12 = 1;
+        num12 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Add meg az első számot: ");
+        int num13 = 1;
+        num13 = Convert.ToInt32(Console.ReadLine());
+        if (num11 > num12 || num11 > num13)
+        {
+            Console.WriteLine($"{num11} a legnagyobb szám.");
+        }
+        else if (num12 > num13)
+        {
+            Console.WriteLine($"{num12} a legnagyobb szám.");
+        }
+        else
+        {
+            Console.WriteLine($"{num13} a legnagyobb szám.");
+        }
     }
     
 }
