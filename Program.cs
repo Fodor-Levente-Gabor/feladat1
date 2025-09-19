@@ -199,7 +199,7 @@ class Program
     static void Function7() {
         Console.Write("Adj meg egy számot: ");
         int num9 = Convert.ToInt32(Console.ReadLine());
-        if (num9 % 2 == 0 || num9 > 0 )
+        if (num9 % 2 == 0 && num9 > 0 )
         {
             Console.WriteLine($"{num9} szám pozitív és páros is.");
         }
@@ -245,7 +245,7 @@ class Program
         Console.Write("Add meg az első számot: ");
         int num13 = 1;
         num13 = Convert.ToInt32(Console.ReadLine());
-        if (num11 > num12 || num11 > num13)
+        if (num11 > num12 && num11 > num13)
         {
             Console.WriteLine($"{num11} a legnagyobb szám.");
         }
